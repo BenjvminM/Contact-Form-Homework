@@ -1,0 +1,50 @@
+Style.css * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 25px;
+  text-align: center;
+  background-color: #274471;
+}
+
+.container {
+  width: 400px;
+  display: inline-block;
+  text-align: center;
+  background-color: rgb(243, 243, 243);
+  border: 6px;
+  margin: 30px 0px 30px 0px;
+  padding: 25px;
+}
+
+input {
+  width: 100%;
+  padding: 10px 16px 10px 16px;
+  margin: 8px 0px 8px 0px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+#submit {
+  background-color: #1ac0f3;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0px 8px 0px;
+  border-radius: 5px;
+  border: 0px solid;
+  resize: none;
+}
+
+#submit:hover {
+  color: #274471;
+}
